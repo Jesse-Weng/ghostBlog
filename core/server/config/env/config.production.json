@@ -10,9 +10,10 @@
         }
     },
     "mail": {
-        "host": "smtp.qq.com",
+        "from": "jesseweng@foxmail.com",
         "transport": "SMTP",
         "options": {
+            "host": "smtp.qq.com",
             "port": 25,
             "service": "smtp.qq.com",
             "auth": {
